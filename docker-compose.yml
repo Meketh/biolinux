@@ -1,0 +1,9 @@
+version: "3"
+services:
+  bio:
+    build: .
+    volumes:
+      - ./src:/app/src
+    working_dir: /app/src
+    entrypoint: sh -c "chmod +x *.pl && sh"
+    stdin_open: true
