@@ -22,7 +22,7 @@ Se puede confirmar el resultado con el accession en ORFFinder
 https://www.ncbi.nlm.nih.gov/orffinder/
 En el caso de NM_032409.3 es el orf 3 frame 2
 
-$ perl Ex1.pl NM_032409.3.gb
+$ perl Ex1.pm NM_032409.3.gb
 =cut
 
 ($in) = @ARGV;
